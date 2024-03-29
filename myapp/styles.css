@@ -24,3 +24,21 @@
     max-height: 400px; /* Ограничение высоты контейнера сообщений с прокруткой */
     overflow-y: auto; /* Добавление вертикальной прокрутки при необходимости */
 }
+
+body {
+    background-color: #111;
+    color: #ddd;
+}
+
+.message-container {
+    background-color: #222;
+    border: 1px solid #444;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-label, .form-control, .btn {
+    background-color: #333;
+    color: #ddd;
+    border: 1px solid #555;
+}
